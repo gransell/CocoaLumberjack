@@ -47,7 +47,7 @@
 		DC58E4D314DC8BE2006B16E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC58E4D214DC8BE2006B16E2 /* AppDelegate.m */; };
 		DC58E4D614DC8BE2006B16E2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC58E4D514DC8BE2006B16E2 /* ViewController.m */; };
 		DC58E4D914DC8BE2006B16E2 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC58E4D714DC8BE2006B16E2 /* ViewController.xib */; };
-		DC58E4E314DC8D0B006B16E2 /* libLumberjack.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC58E48814DC70CF006B16E2 /* libLumberjack.a */; };
+		DC58E4E314DC8D0B006B16E2 /* libLumberjackLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC58E48814DC70CF006B16E2 /* libLumberjackLib.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,11 +64,11 @@
 		B4059133168DFF9A003C78E6 /* LumberjackFramework-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LumberjackFramework-Info.plist"; sourceTree = "<group>"; };
 		B4059135168DFF9A003C78E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B4059137168DFF9A003C78E6 /* LumberjackFramework-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LumberjackFramework-Prefix.pch"; sourceTree = "<group>"; };
-		B4059144168DFFBA003C78E6 /* LumberjackFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework.static; includeInIndex = 0; path = LumberjackFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4059144168DFFBA003C78E6 /* LumberjackFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework.static; includeInIndex = 0; name = LumberjackFramework.framework; path = Lumberjack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4059148168DFFBA003C78E6 /* LumberjackFramework-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LumberjackFramework-Info.plist"; sourceTree = "<group>"; };
 		B405914A168DFFBA003C78E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B405914C168DFFBA003C78E6 /* LumberjackFramework-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LumberjackFramework-Prefix.pch"; sourceTree = "<group>"; };
-		DC58E48814DC70CF006B16E2 /* libLumberjack.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLumberjack.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC58E48814DC70CF006B16E2 /* libLumberjackLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLumberjackLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC58E48B14DC70CF006B16E2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DC58E48F14DC70CF006B16E2 /* Lumberjack-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lumberjack-Prefix.pch"; sourceTree = "<group>"; };
 		DC58E49014DC70CF006B16E2 /* Lumberjack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lumberjack.h; sourceTree = "<group>"; };
@@ -124,7 +124,7 @@
 				DC58E4C414DC8BE2006B16E2 /* UIKit.framework in Frameworks */,
 				DC58E4C514DC8BE2006B16E2 /* Foundation.framework in Frameworks */,
 				DC58E4C714DC8BE2006B16E2 /* CoreGraphics.framework in Frameworks */,
-				DC58E4E314DC8D0B006B16E2 /* libLumberjack.a in Frameworks */,
+				DC58E4E314DC8D0B006B16E2 /* libLumberjackLib.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,7 +183,7 @@
 		DC58E48914DC70CF006B16E2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DC58E48814DC70CF006B16E2 /* libLumberjack.a */,
+				DC58E48814DC70CF006B16E2 /* libLumberjackLib.a */,
 				DC58E4C114DC8BE2006B16E2 /* LibTest.app */,
 				B4059144168DFFBA003C78E6 /* LumberjackFramework.framework */,
 			);
@@ -334,7 +334,7 @@
 			);
 			name = LumberjackLib;
 			productName = Lumberjack;
-			productReference = DC58E48814DC70CF006B16E2 /* libLumberjack.a */;
+			productReference = DC58E48814DC70CF006B16E2 /* libLumberjackLib.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		DC58E4C014DC8BE2006B16E2 /* LibTest */ = {
