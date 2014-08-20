@@ -28,6 +28,7 @@
 #define DEFAULT_LOG_MAX_FILE_SIZE     (1024 * 1024)   //  1 MB
 #define DEFAULT_LOG_ROLLING_FREQUENCY (60 * 60 * 24)  // 24 Hours
 #define DEFAULT_LOG_MAX_NUM_LOG_FILES (5)             //  5 Files
+#define DDFileLoggerLogFileCreatedNotification @"DDFileLoggerLogFileCreatedNotification"
 
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
